@@ -1,0 +1,30 @@
+stackbitVersion: ~0.3.0
+ssgName: gatsby
+
+dataDir: null
+pagesDir: src/pages
+
+assets:
+  assetsDir: src/pages
+  uploadDir: images
+  referenceType: relative
+
+pageLayoutKey: null
+logicFields:
+  - post.date
+  - post.featuredImage
+
+models:
+  post:
+    type: page
+    label: Post
+    description: Blog Post
+    urlPath: '{slug}'
+    filePath: '{slug}/index.md'
+    fields:
+      - type: string
+        name: title
+      - type: date
+        name: date
+      - type: image
+        name: featuredImage
