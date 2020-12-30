@@ -18,7 +18,7 @@ function Header({ config }) {
         {userConfig.showHeaderImage && (
           <HeaderImage/>
         )}
-        <H1><Link to="/">{author}</Link></H1>
+        <H1><Link to="/shantanu">{author}</Link></H1>
         <P>{description}</P>
         {social &&
           <Social
