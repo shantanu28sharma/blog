@@ -51,7 +51,7 @@ Basic configuration can be done via the ```config.js``` file in the root of the 
 ```javascript
 export default {
   title: 'Dev Blog', // Required
-  author: 'Ryan Fitzgerald', // Required
+  author: 'Shantanu Sharma', // Required
   description: 'Full-stack Web Developer',
   primaryColor: '#3498db', // Required
   showHeaderImage: true,
